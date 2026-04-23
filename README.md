@@ -40,4 +40,3 @@ The page is extracted with Mozilla Readability, converted to Markdown with Turnd
 ## Security note
 
 The PAT is stored in `browser.storage.local` (unencrypted at rest). Appropriate for personal use; don't use a token with scopes beyond what you need.
-# snip-to-repo-extension
