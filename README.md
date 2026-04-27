@@ -1,4 +1,4 @@
-# Snip to Repo
+# Synapse Web Clipper
 
 Firefox extension that saves the current page as Markdown to a GitHub repository via a personal access token.
 

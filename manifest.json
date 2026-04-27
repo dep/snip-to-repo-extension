@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Snip to Repo",
+  "name": "Synapse Web Clipper",
   "version": "0.1.0",
   "description": "Save the current page as Markdown to a GitHub repository.",
   "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["<all_urls>", "https://api.github.com/*"],
   "action": {
-    "default_title": "Snip to Repo",
+    "default_title": "Synapse Web Clipper",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",
