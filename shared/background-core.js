@@ -39,12 +39,11 @@ async function commitFile({ token, repo, path, content, message }) {
   return r.json();
 }
 
-browser.runtime.onMessage.addListener(async (msg) => {
-  if (msg.type !== 'commit') return;
+async function handleCommit(msg) {
   try {
     const result = await commitFile(msg);
     return { ok: true, result };
   } catch (e) {
     return { ok: false, error: e.message };
   }
-});
+}
